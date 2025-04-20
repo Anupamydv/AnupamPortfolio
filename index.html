@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anupam's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://images-platform.99static.com//jCT0WmYaOUk7OIbhe3RRGkLONUc=/582x334:1390x1142/fit-in/500x500/99designs-contests-attachments/87/87651/attachment_87651341" type="image/png" />
+  <script src="https://kit.fontawesome.com/55656d0a3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <nav>
+        <img src="https://images-platform.99static.com//jCT0WmYaOUk7OIbhe3RRGkLONUc=/582x334:1390x1142/fit-in/500x500/99designs-contests-attachments/87/87651/attachment_87651341" height="100px" class="logo" alt="Logo" />
+        <ul id="sidemenu">
+          <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Anupam</span> From NIT-J</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <!-- <img src="https://t4.ftcdn.net/jpg/02/84/07/91/360_F_284079127_9UCkORd5qJt88g1Q1rURPdLIs8pC6Cx5.jpg" alt="Profile" /> -->
+          <img  style="width: 400px; height: 290;" src="WhatsApp Image 2025-04-19 at 7.31.52 PM.jpeg" alt="Profile" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle" id="abtm">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis praesentium eum repellendus?</p>
+          <div class="tabTitle">
+            <p class="tabLinks active-link" onclick="opentab(event, 'skills')">Skills</p>
+            <p class="tabLinks" onclick="opentab(event, 'experience')">Experience</p>
+            <p class="tabLinks" onclick="opentab(event, 'education')">Education</p>
+          </div>
+
+          <div class="tabContent activeTab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+              <li><span>Web Development</span><br />Web App Development</li>
+              <li><span>App Development</span><br />Building Android/iOS Apps</li>
+            </ul>
+          </div>
+
+          <div class="tabContent" id="experience">
+            <ul>
+              <li><span>2024 (Internship)</span><br />UI/UX Designer at DesignHub</li>
+              <li><span>2023</span><br />Freelance Web Developer for 3 clients</li>
+            </ul>
+          </div>
+
+          <div class="tabContent" id="education">
+            <ul>
+              <li><span>2022 – Present</span><br />B.Tech. in Electrical Engineering, NIT Jalandhar</li>
+              <li><span>2021</span><br />12<sup>th</sup> – Meritorious School, Ludhiana (97%)</li>
+              <li><span>2019</span><br />10<sup>th</sup> – Govt. Model School, Ludhiana (94.62%)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Modern, responsive, and accessible websites with beautiful UI/UX.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Prototypes and UI kits using Figma and Adobe XD with interaction logic.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-android"></i>
+          <h2>App Design</h2>
+          <p>Functional Android/iOS mobile app designs with user-centric interfaces.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="https://www.ideamotive.co/hs-fs/hubfs/21%20Dazzling%20Examples%20of%20Mobile%20App%20UI%20Design%20to%20Inspire%20You%20in%202022%20-%20music%20player.png" alt="Project 1" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>User-friendly social media app with sleek UI and chat features.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://i.pinimg.com/736x/55/2b/44/552b4426e73786984e468963b05e4bbf.jpg" alt="Project 2" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Responsive music player with playlist and theme options.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img style="width: 378.88px; height: 284.15px" src="https://i.pinimg.com/736x/74/d7/90/74d7902e02adfdbd5d5d72eecef44b3f.jpg" alt="Project 3" />
+          <div class="layer">
+            <h3>Shopping App</h3>
+            <p>E-commerce UI with cart functionality and secure checkout flow.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="button">See more</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="contain">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="#" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2025 Anupam. Made with ❤️ at NIT-J</p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script>
+    const tablinks = document.getElementsByClassName('tabLinks');
+    const tabcontents = document.getElementsByClassName('tabContent');
+    function opentab(evt, tabname) {
+      for (let tablink of tablinks) tablink.classList.remove('active-link');
+      for (let tabcontent of tabcontents) tabcontent.classList.remove('activeTab');
+      evt.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('activeTab');
+    }
+
+    const sidemenu = document.getElementById("sidemenu");
+    function openmenu() { sidemenu.style.right = "0"; }
+    function closemenu() { sidemenu.style.right = "-200px"; }
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLc2-W3f1uyeX3Vw62SGg529Qgn4nYz9KTiCkuMiU_iwDahKtQew4wuUHWf48fzrDa/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!";
+          setTimeout(() => msg.innerHTML = "", 5000);
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  </script>
+</body>
+</html>
